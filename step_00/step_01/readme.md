@@ -17,3 +17,8 @@ var age = 28;
 ```
 
 Now, the box age contains the value 28.
+
+## Pratice On Code Editor
+
+open the code editor write a variable name the variable age then assign the value 24 and console the variable  
+you will see your output in the browser and also in the vs-code terminal to see the output in a vs-code terminal open a new terminal and write node script.js note you have to write your javascript file name
