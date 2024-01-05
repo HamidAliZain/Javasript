@@ -7,8 +7,8 @@ JavaScript has several data types:
 Integer or floating-point numbers.
 
 ```javascript
-let count = 10;
-let price = 19.99;
+var count = 10;
+var price = 19.99;
 ```
 
 ## Strings
@@ -16,8 +16,8 @@ let price = 19.99;
 Sequence of characters enclosed in single (' ') or double (" ") quotes.
 
 ```javascript
-let greeting = "Hello";
-let fullName = "John Doe";
+var greeting = "Hello";
+var fullName = "John Doe";
 ```
 
 ## Booleans
@@ -25,8 +25,8 @@ let fullName = "John Doe";
 Represents either true or false.
 
 ```javascript
-let isRaining = true;
-let isLoggedIn = false;
+var isRaining = true;
+var isLoggedIn = false;
 ```
 
 ## Undefined
@@ -34,7 +34,7 @@ let isLoggedIn = false;
 The default value of a variable that has been declared but not initialized.
 
 ```javascript
-let undefinedVar;
+var undefinedVar;
 ```
 
 ## Null
@@ -42,7 +42,7 @@ let undefinedVar;
 Represents the intentional absence of any object value.
 
 ```javascript
-let nullValue = null;
+var nullValue = null;
 ```
 
 ## Symbols
@@ -50,7 +50,7 @@ let nullValue = null;
 Uniquely identifiable primitive value often used for object property keys.
 
 ```javascript
-const uniqueKey = Symbol("uniqueKey");
+var uniqueKey = Symbol("uniqueKey");
 ```
 
 ## BigInt
@@ -58,7 +58,7 @@ const uniqueKey = Symbol("uniqueKey");
 Represents whole numbers larger than the maximum safe integer.
 
 ```javascript
-const bigNumber = BigInt(9007199254740991);
+var bigNumber = BigInt(9007199254740991);
 ```
 
 ## Objects
@@ -66,7 +66,7 @@ const bigNumber = BigInt(9007199254740991);
 Objects are a fundamental reference type in JavaScript. They represent a collection of key-value pairs, where keys are strings or symbols, and values can be of any data type, including other objects.
 
 ```javascript
-let person = { name: "John", age: 30 };
+var person = { name: "John", age: 30 };
 ```
 
 ## Arrays
@@ -74,5 +74,5 @@ let person = { name: "John", age: 30 };
 Arrays are ordered lists that can hold values of any data type. Each element in an array has an index, starting from 0.
 
 ```javascript
-let multipleData = [1, "my name is Hamid", true, { name: "John", age: 25 }];
+var multipleData = [1, "my name is Hamid", true, { name: "John", age: 25 }];
 ```
