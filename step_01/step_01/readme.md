@@ -77,7 +77,7 @@ Used to iterate over the properties of an object. It enumerates the properties o
 ```javascript
 const person = { name: "John", age: 30, job: "developer" };
 
-for (let key in person) {
+for (var key in person) {
   console.log(key, person[key]);
 }
 ```
@@ -91,7 +91,7 @@ Introduced in ECMAScript 2015 (ES6), the for...of loop is used for iterating ove
 ```javascript
 const colors = ["red", "green", "blue"];
 
-for (let color of colors) {
+for (var color of colors) {
   console.log(color);
 }
 ```

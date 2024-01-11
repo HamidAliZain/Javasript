@@ -35,7 +35,7 @@ function add(a, b) {
   return a + b;
 }
 
-let result = add(3, 5);
+var result = add(3, 5);
 console.log(result); // Outputs: 8
 ```
 
@@ -44,7 +44,7 @@ console.log(result); // Outputs: 8
 Arrow functions provide a concise syntax for writing functions, especially when the function body is a single expression.
 
 ```javascript
-let square = (num) => num * num;
+var square = (num) => num * num;
 console.log(square(3)); // Outputs: 9
 ```
 
@@ -53,7 +53,7 @@ console.log(square(3)); // Outputs: 9
 Functions without a name are called anonymous functions and are often used as arguments to other functions
 
 ```javascript
-let numbers = [1, 2, 3];
+var numbers = [1, 2, 3];
 
 numbers.forEach(function (num) {
   console.log(num);
