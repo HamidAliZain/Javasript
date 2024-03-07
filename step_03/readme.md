@@ -1,5 +1,5 @@
+# Array Methods
 # Adding and Removing Elements:
-
 ## push
 
 push(): Adds one or more elements to the end of an array and returns the new length of the array.
